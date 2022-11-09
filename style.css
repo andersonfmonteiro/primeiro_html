@@ -14,19 +14,28 @@ h1{
     list-style: none;
 }
 
-.button {
-   align-self: center;
-    border: none;
-    color: white;
-    padding: 15px 32px;
+.texto-centro {
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-  }
+}
 
+.button {
+    background-color:#0061a7;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:13px;
+	font-weight:bold;
+	padding:18px 38px;
+	text-decoration:none;
+}
+
+.button:active {
+	position:relative;
+	top:1px;
+}
 
 ul{
     text-align: center;
